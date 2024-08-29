@@ -1,0 +1,532 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.header{
+    /* background-color: red; */
+    width: 100%;
+    height: 5rem;
+}
+
+.navigation-bar{
+    display: flex;
+    background-color: burlywood;
+    width: 100%;
+    height: 2rem;
+}
+
+.left-nav{
+    margin-left: 6rem;
+    flex-grow: 1;
+}
+
+.left-nav ul{
+    top: 6px;
+    list-style: none;
+    position: relative;
+    
+}
+.left-nav ul li{
+    display: inline-flex;
+
+}
+
+.left-nav ul li a{
+    color: black;
+    margin: 0px 18px;
+    text-decoration: none;
+}
+
+.right-menu{
+    margin-right: 31px;
+    position: relative;
+    top: 6px;
+}
+
+.right-menu li{
+    list-style: none;
+}
+
+.right-menu li a{
+    color: black;
+    text-decoration: none;
+}
+
+nav{
+    /* background-color: red; */
+    display: flex;
+    padding: 18px 63px;
+}
+
+nav h1{  
+    font-size: 43px;
+}
+
+nav h1 a{
+    color: black;
+    text-decoration: none;
+
+}
+
+nav .navbar{
+    /* background-color: green; */
+    width: 65rem;
+    
+}
+
+nav .navbar ul{
+    list-style: none;
+    
+}
+
+nav .navbar ul li{
+    display: inline-block;
+    color: black;
+    
+
+}
+
+nav .navbar ul li a{
+    /* font-weight: bold; */
+    position: relative;
+    margin: 0px 36px;
+    color: black;
+    text-decoration: none;
+    top: 21px;
+    FONT-SIZE: 17px;
+}
+
+.background{
+    width: 100%;
+    display: flex;
+    height: 600px;
+    /* background-color: red; */
+}
+
+.left-header{
+    background-color: black;
+    padding: 80px 96px;
+    width: 50%;
+    height: 94vh;
+}
+.left-header h3{
+    color: red;
+    margin-bottom: 31px;
+}
+
+.left-header h2{
+    color: #fff;
+    color: #fff;
+    font-size: 40px;
+    margin-bottom: 19px;
+}
+
+.left-header p{
+    color: #fff;
+    color: #fff;
+    font-size: 20px;
+    text-align: justify;
+}
+
+.left-header a{
+    color: #fff;
+    top: 38px;
+    color: #fff;
+    position: relative;
+    font-size: 25px;
+}
+
+.right-image{
+    width: 706px;
+}
+
+.right-image img{
+     width: 100%;
+     height: 94vh;
+}
+
+.three-columns{
+    width: 100%;
+    /* background-color: red; */
+    height: 30rem;
+    display: flex;
+}
+
+.box{
+    /* border: 2px solid black; */
+    width: 24rem;
+    height: 20rem;
+    margin: auto;
+}
+
+#div-box1 hr{
+    margin-top: 100px;
+}
+
+#div-box2 hr{
+    margin-top: 36px;
+}
+
+#div-box3 hr{
+    margin-top: 36px;
+}
+
+
+
+.box a{
+    color: black;
+    text-decoration: none;
+}
+
+.box h1{
+    font-size: 36px;
+}
+
+.box p{
+    font-size: 18px;
+    margin-top: 27px;
+    text-align: justify;
+}
+
+.wrapper-2{
+    background-color: black;
+    width: 100%;
+    height: 25rem;
+    position: relative;
+    top: 68rem;
+    display: flex;
+}
+
+.text-container{
+    /* background-color: green; */
+    width: 42rem;
+    padding: 96px 49px;
+}
+
+.text-container h1{
+    font-size: 43px;
+    margin-bottom: 19px;
+    color: #fff;
+}
+
+.text-container p{
+    
+    text-align: justify;
+    font-size: 21px;
+    color: #fff;
+
+}
+
+.text-container a{
+    font-size: 21px;
+    color: #fff;
+    text-decoration: none;
+    position: relative;
+    top: 13px;
+}
+
+.advertisement{
+    margin-left: 36px;
+    width: 40rem;
+}
+
+.advertisement video{
+    left: 77px;
+    width: 31rem;
+    position: relative;
+    top: 4rem;
+
+}
+
+.wrapper-3{
+    /* background-color: red; */
+    width: 84rem;
+    height: 19rem;
+    position: relative;
+    top: 70rem;
+    display: flex;
+}
+
+.containerleft{
+    width: 57rem;
+    /* background-color: green; */
+    padding: 60px 38px;
+    display: flex;
+}
+
+.containerleft img{
+    height: 120px;
+}
+
+.info{
+    padding: 2px 66px;
+}
+
+.info h1{
+    margin-bottom: 20px;
+}
+
+.info p{
+    font-size: 21px;
+    text-align: justify;
+    margin-bottom: 10px;
+}
+
+.info a{
+    text-decoration: none;
+    color: black;
+    font-size: 24px;
+    font-weight: bold;
+}
+.container-right{
+    /* background-color: blue; */
+    width: 54rem;
+    padding: 60px 38px;
+    display: flex;
+}
+
+.container-right img{
+    height: 120px;
+
+}
+.info-content{
+    padding: 2px 66px;
+}
+.info-content h1{
+    margin-bottom: 20px;
+}
+
+.info-content p{
+    font-size: 21px;
+    text-align: justify;
+    margin-bottom: 10px;
+}
+
+.info-content a{
+    text-decoration: none;
+    color: black;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.footer{
+    background-color: rgb(22, 22, 22);
+    width: 100%;
+    height: 34rem;
+    position: relative;
+    top: 73rem;
+    margin-bottom: 10px;
+    
+}
+.footer h1{
+    left: 20px;
+    position: relative;
+    top: 74px;
+    color: #fff;
+    font-size: 32px;
+    width: 26rem;
+}
+
+.flexfooter{
+    display: flex;
+    margin-top: 117px;
+}
+
+.list{
+    /* background-color: red; */
+    height: 24rem;
+    margin: auto;
+}
+
+.list h2{
+    margin-bottom: 24px;
+    color: #fff;
+    font-size: 20px;
+}
+
+.list hr{
+    margin-bottom: 14px;
+}
+
+.list ul{
+    list-style: none;
+    height: 263px;
+}
+
+.list ul li{
+    margin: 11px 7px;
+}
+
+
+.list ul li a{
+    text-decoration: none;
+    color: #fff;
+    /* margin-top: 16px; */
+  
+}
+
+.list ul li a:hover{
+    text-decoration: underline;
+}
+
+#first-list{
+    /* background-color: aqua; */
+    height: 24rem;
+    margin-top: 5px;
+
+}
+
+
+.banner{
+    background-color: black;
+    width: 100%;
+    position: absolute;
+    top: 156rem;
+    display: flex;
+    padding: 43px 35px;
+
+}
+
+.banner hr{
+    margin-left: 20px;
+}
+
+.leftfront{
+      /* background-color: green; */
+      width: 39rem;
+}
+
+.leftfront h1{
+    font-size: 53px;
+    color: #fff;
+    margin-bottom: 15px;
+    position: relative;
+    top: 104px;
+
+}
+
+.leftfront p{
+    color: #fff;
+    text-align: justify;
+    font-size: 19px;
+    position: relative;
+    top: 112px;
+}
+
+.rightfront{
+    /* background-color: blue; */
+    margin-left: 84px;
+    width: 600px;
+    height: 31rem;
+    display: flex;
+    padding: 85px 71px;
+}
+.firstnavigator h2{
+    color: orangered;
+    text-transform: uppercase;
+    margin-bottom: 15px;
+}
+
+.firstnavigator ul{
+    list-style: none;
+    /* background-color: yellow; */
+    height: 20rem;
+}
+
+.firstnavigator ul li{
+    margin-bottom: 15px;
+}
+
+.firstnavigator ul li a{
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.firstnavigator ul li a:hover{
+    text-decoration: underline;
+}
+
+
+.secondnavigator{
+    /* background-color: blueviolet; */
+    margin-left: 61px;
+    width: 268px;
+}
+
+
+
+.secondnavigator h2{
+    color: orangered;
+    text-transform: uppercase;
+    margin-bottom: 25px;
+    
+}
+.secondnavigator ul{
+    position: relative;
+    list-style: none;
+    /* background-color: aqua; */
+    height: 20rem;
+    top: -10px;
+}
+
+.secondnavigator ul li{
+    margin-bottom: 15px;
+
+
+}
+
+.secondnavigator ul li a{
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.secondnavigator ul li a:hover{
+    text-decoration: underline;
+}
+
+.documentation{
+    /* background-color: red; */
+    top: 111rem;
+    position: relative;
+    padding: 25px 53px;
+}
+
+.paradoc{
+    margin-bottom: 29px;
+}
+.paradoc1{
+    margin-bottom: 29px;
+}
+
+span{
+    font-weight: bold;
+}
+.paradoc2{
+    margin-bottom: 29px;
+}
+.paradoc3{
+    margin-bottom: 29px;
+}
+.paradoc4{
+    margin-bottom: 29px;
+}
+.paradoc5{
+    margin-bottom: 29px;
+}
+.paradoc6{
+    margin-bottom: 29px;
+}
+.paradoc7{
+    margin-bottom: 29px;
+
+}
+
+
+
+
+
+
